@@ -224,9 +224,9 @@ class _PinchZoomReleaseUnzoomWidgetState
             },
             onInteractionEnd: (details) {
               PinchZoomLogger().log('stopped interaction. Hide overlay');
-              if (overlayEntries.isEmpty) {
-                return;
-              }
+              // if (overlayEntries.isEmpty) {
+              //   return;
+              // }
 
               resetAnimation();
             },
